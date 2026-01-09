@@ -53,12 +53,6 @@ jobs:
       - name: Generate Allure Report
         run: | 
           pnpm allure run --config=./allurerc.mjs -- pnpm test
-          ls -la ./allure-report
-      - name: Allure Report Official
-        uses: allure-framework/allure-action@v0
-        with:
-          report-directory: "./allure-report"
-          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
