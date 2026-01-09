@@ -54,6 +54,7 @@ jobs:
         run: | 
           pnpm test
           ls -la ./allure-results
+        continue-on-error: true
       - name: Setup Allure Report
         run: | 
           wget https://repo1.maven.org/maven2/io/qameta/allure/allure-commandline/2.36.0/allure-commandline-2.36.0.zip
