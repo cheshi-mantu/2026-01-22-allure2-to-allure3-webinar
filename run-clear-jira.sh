@@ -1,0 +1,1 @@
+pnpm allure jira clear --issue ARFJ-4 --reports --results
