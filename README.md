@@ -9,3 +9,6 @@
 - [Install allure3](https://allurereport.org/docs/v3/install/)
   - [Upgrade allure3](https://allurereport.org/docs/v3/upgrade/)
 
+## Slides
+
+[click](./words/!toc.md)
