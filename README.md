@@ -2,6 +2,8 @@
 
 ## 2026-01-29
 
+Main plot: We are going to talk what are the breaking changes, and how it is easy (is it?) to switch from Allure Report ver. 2 to Allure Report ver. 3
+
 ## Materials
 
 - [Allure Report site with docs](https://allurereport.org)
