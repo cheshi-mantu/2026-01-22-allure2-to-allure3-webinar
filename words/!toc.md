@@ -1,5 +1,9 @@
 # Allure3 is here, what now?
 
+## Who's talking?
+
+[we are](./talking.md)
+
 ## Agenda
 
 1. [What's the change?](./000-what-is-the-change.md)
