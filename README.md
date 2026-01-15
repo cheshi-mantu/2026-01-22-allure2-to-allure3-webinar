@@ -1,8 +1,15 @@
 # Allure Team webinar - moving from allure2 to allure3
 
+## Who's talking?
+
+[we are](./talking.md)
+
 ## 2026-01-29
 
 Main plot: We are going to talk what are the breaking changes, and how it is easy (is it?) to switch from Allure Report ver. 2 to Allure Report ver. 3
+
+
+
 
 ## Materials
 
