@@ -10,6 +10,6 @@
 
 ## Allure3 workflow
 
-![](./allure3-workflow.jpg)\
+![](./allure3-workflow.jpg)
 
 [back](./!toc.md)
