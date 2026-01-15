@@ -7,3 +7,7 @@
 ## Allure2 workflow
 
 ![](./allure2-workflow.jpg)
+
+## Allure3 workflow
+
+![](./allure3-workflow.jpg)
