@@ -60,7 +60,7 @@ export default defineConfig({
   },
   variables: {
     env_variable: "unknown",
-    greeting: "¡Hola todos!",
+    build: process.env.RELEASE_INFO || "local",
   },
   environments: {},
 });

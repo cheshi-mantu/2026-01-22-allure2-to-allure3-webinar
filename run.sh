@@ -4,4 +4,4 @@
 
 pnpm test
 pnpm allure generate --config=./allurerc.mjs ./allure-results
-# pnpm allure open --config=./allurerc.mjs
+pnpm allure open --config=./allurerc.mjs
