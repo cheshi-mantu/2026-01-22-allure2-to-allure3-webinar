@@ -6,7 +6,7 @@
 
 ## Allure2 workflow
 
-[Allure2 Workflow](./allure2-workflow.md)
+[Allure2 Workflow](./000-allure2-workflow.md)
 
 ## Good news, everyone!
 
@@ -14,6 +14,6 @@
 
 ## Allure3 workflow
 
-[Allure3 Workflow](./allure3-workflow.md)
+[Allure3 Workflow](./000-allure3-workflow.md)
 
 [back](./!toc.md)
