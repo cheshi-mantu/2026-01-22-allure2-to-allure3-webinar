@@ -8,6 +8,10 @@
 
 ![](./allure2-workflow.jpg)
 
+## Good news everyone
+
+![](./no-changes.jpg)
+
 ## Allure3 workflow
 
 ![](./allure3-workflow.jpg)
