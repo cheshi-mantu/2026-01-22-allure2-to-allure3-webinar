@@ -6,14 +6,14 @@
 
 ## Allure2 workflow
 
-![](./allure2-workflow.jpg)
+[Allure2 Workflow](./allure2-workflow.md)
 
-## Good news everyone
+## Good news, everyone!
 
-![](./no-changes.jpg)
+[Good news](./000-good-news.md)
 
 ## Allure3 workflow
 
-![](./allure3-workflow.jpg)
+[Allure3 Workflow](./allure3-workflow.md)
 
 [back](./!toc.md)
