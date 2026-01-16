@@ -1,12 +1,7 @@
 ./clean-results.sh
 
-pnpm allure run --config=./allurerc.mjs -- pnpm test
+# pnpm allure run --config=./allurerc.mjs -- pnpm test
 
-if [ $? -ne 0 ]; then
-    echo "Tests failed. Exiting..."
-    exit 1
-fi
-
-# pnpm allure generate --config=./allurerc.mjs
-
-pnpm allure open --config=./allurerc.mjs
+pnpm test
+pnpm allure generate --config=./allurerc.mjs ./allure-results
+# pnpm allure open --config=./allurerc.mjs
