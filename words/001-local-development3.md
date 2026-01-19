@@ -3,12 +3,21 @@
 ## Allure3
 
 1. No need to install Java :)
-2. We need node
-3. Run your tests
-4. Generate and open
-5. or serve the report
+2. We need nodejs.
+3. We need to install allure3.
+4. Run your tests.
+5. Generate and open
+6. or serve the report
 
 ### We need nodejs
+
+```shell
+nvm install something
+#then
+nvm use something
+```
+
+### We need Allure3
 
 ```shell
 npm install -g allure
