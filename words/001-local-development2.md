@@ -16,7 +16,7 @@ sdk install java 21.0.9-amzn
 
 ### Install allure2 commandline utility
 
-Using brew or directly installing the binary files from github repo of the project.
+Using brew or directly installing the [binary files from github repo of the project.](https://github.com/allure-framework/allure2/releases/tag/2.36.0)
 
 ```shell
 brew install allure
