@@ -1,42 +1,43 @@
-# Watch 'em
+# Local development
 
-## run
+## Allure2
+
+1. Install Java
+2. Install allure2 commandline utility
+3. Run your tests
+4. Generate and open
+5. or serve the report
+
+### Install Java
 
 ```shell
-pnpm allure watch ./allure-results
+sdk install java 21.0.9-amzn
 ```
 
-## again and again
+### Install allure2 commandline utility
+
+Using brew or directly installing the binary files from github repo of the project.
+
+```shell
+brew install allure
+```
+
+### Run tests
 
 ```shell
 pnpm test
 ```
 
+### Generate report
 
-## Script
+```shell
+allure2 generate ./allure-results && allure2 open ./allure-report
+```
 
-[Egor:]
+or
 
-1. Watches results in real time.
-2. Rebuilds the report in real time.
-3. No more jumping between IDE and terminal.
-4. Profit!11
+```shell
+allure2 serve ./allure-results
+```
 
-[Audience:]
 
-- Stop talking!
-- Show us the good stuff!!
-
-[Egor:]
-
-- But I have only 6 minutes!
-
-[Audience:]
-
-- Show us, or sod off!
-
-[Egor:][in a frightened manner]
-
-- All right, all right...
-
-[back to toc](!toc.md/#allure3-highlights)
