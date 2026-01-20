@@ -51,16 +51,17 @@ jobs:
       - name: Install playwright deps
         run: pnpm exec playwright install-deps
 
-      - name: run tests
-        run: | 
-          pnpm test
-          ls -la ./allure-results
-        continue-on-error: true
       - name: Setup Allure Report
         run: | 
           wget https://repo1.maven.org/maven2/io/qameta/allure/allure-commandline/2.36.0/allure-commandline-2.36.0.zip
           unzip allure-commandline-2.36.0.zip
           ./allure-2.36.0/bin/allure --help
+
+      - name: run tests
+        run: | 
+          pnpm test
+          ls -la ./allure-results
+        continue-on-error: true
       - name: Generate Allure Report
         run: | 
           ./allure-2.36.0/bin/allure generate ./allure-results/ -o allure-report
