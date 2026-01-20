@@ -29,7 +29,7 @@ Add this to the config of the used shell.
 
 ```text
 alias allure2="/opt/homebrew/Cellar/allure/2.36.0/bin/allure"
-alias allure3="/Users/${USER}/.nvm/versions/node/v22.21.0/bin/allure"
+alias allure3="pnpm allure"
 ```
 
 ### Run your tests
@@ -43,13 +43,6 @@ pnpm test
 ### Run your tests by allure3
 
 ```shell
-allure3 run -- pnpm test
+allure3 run --config=./allurerc.mjs -- pnpm test || allure3 open --config=./allurerc.mjs
 ```
-
-**OR** with the reference to the config file
-
-```shell
-allure3 run --config=./allurerc.mjs -- pnpm test && allure3 open --config=./allurerc.mjs
-```
-
 [TOC](./!toc.md)
