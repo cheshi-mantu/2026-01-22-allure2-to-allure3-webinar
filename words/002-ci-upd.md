@@ -19,3 +19,6 @@ Main actions
 |7.|Run tests **AND** generate report|'cause we need to run them!|
 |8.|~~Generate report~~| |
 |9.|Publish report to GH pages|'cause boss wants link|
+
+[And check, how it's working](https://github.com/cheshi-mantu/2026-01-22-allure2-to-allure3-webinar/actions/workflows/allure3.yml)
+
