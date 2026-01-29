@@ -4,4 +4,4 @@ rm -rf ./allure-report
 rm -rf ./test-results
 rm -rf ./playwright-report
 
-clean
+clear
