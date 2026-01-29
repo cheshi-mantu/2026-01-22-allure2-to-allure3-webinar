@@ -46,4 +46,11 @@ pnpm test
 allure3 run --config=./allurerc.mjs -- pnpm test || allure3 open --config=./allurerc.mjs
 ```
 
+#### What if I haven't prepared the config?
+
+```shell
+rm -f ./allurerc.mjs || allure3 run -- pnpm test || allure3 open
+```
+
+
 [TOC](./!toc.md)
