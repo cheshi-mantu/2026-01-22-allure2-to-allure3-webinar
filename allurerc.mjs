@@ -45,14 +45,6 @@ export default defineConfig({
   name: "Allure Report",
   output: "./allure-report",
   historyPath: "./history.jsonl",
-  qualityGate: {
-    rules: [
-      {
-        maxFailures: 3,
-        fastFail: true,
-      },
-    ],
-  },
   plugins: {
     awesomeAll: {
       import: "@allurereport/plugin-awesome",

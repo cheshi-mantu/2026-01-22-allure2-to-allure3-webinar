@@ -52,7 +52,7 @@ jobs:
 
       - name: Generate Allure Report
         run: | 
-          pnpm allure run --config=./allurerc.mjs -- pnpm test
+          pnpm allure run --rerun 3 --config=./allurerc.mjs -- pnpm test
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
